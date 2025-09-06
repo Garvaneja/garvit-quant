@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garvit Aneja — Rogue Quant & AI Systems Builder</title>
+  <meta name="description" content="Rogue quant & AI systems builder. I design, train, and deploy trading engines, sentiment snipers, and DeFi research that actually ships.">
+  <meta property="og:title" content="Garvit Aneja — Rogue Quant & AI Systems Builder">
+  <meta property="og:description" content="Rogue quant & AI systems builder. I design, train, and deploy trading engines, sentiment snipers, and DeFi research that actually ships.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#" class="brand">
+      <img src="assets/logo.svg" alt="GA" class="logo"/>
+      <span>GARVIT ANEJA</span>
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact" class="pill">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Rogue Quant & <span class="glow">AI Systems</span> Builder</h1>
+        <p class="subtitle">
+          I design, train, and deploy <strong>trading engines</strong>, <strong>sentiment snipers</strong>, and <strong>DeFi experiments</strong>.
+          Less theory, more PnL. Berlin-ready.
+        </p>
+        <div class="ctas">
+          <a class="btn primary" href="#work">See the builds</a>
+          <a class="btn" href="https://github.com/garvaneja" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+        <ul class="highlights">
+          <li>Reinforcement Learning (PPO/LSTM)</li>
+          <li>Microstructure & Execution Routing</li>
+          <li>NLP Sentiment (BERT/DistilBERT)</li>
+          <li>Crypto/DeFi, CCXT, FastAPI, Docker</li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <img src="assets/hero-bg.svg" alt="abstract graph" />
+      </div>
+    </section>
+
+    <section id="proof" class="proof">
+      <h2>Signals & Proof</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>AiFund‑Lite</h3>
+          <p>RL-driven strategy on 1m crypto data. Paper traded with risk controls.</p>
+          <ul>
+            <li>Sharpe (sim): 1.4</li>
+            <li>Max DD (sim): −7.8%</li>
+            <li>Latency-aware execution</li>
+          </ul>
+          <a href="https://github.com/garvaneja" target="_blank" class="mini">Repo →</a>
+        </div>
+        <div class="card">
+          <h3>NeuroMemeSurge‑Lite</h3>
+          <p>DistilBERT signals for meme pumps. Fake-pump detector with thresholds.</p>
+          <ul>
+            <li>F1 (headline set): 0.79</li>
+            <li>Live alerts via Telegram</li>
+            <li>Feature: sentiment × volume</li>
+          </ul>
+          <a href="https://github.com/garvaneja" target="_blank" class="mini">Repo →</a>
+        </div>
+        <div class="card">
+          <h3>Puppeteer of Chaos (PoC)</h3>
+          <p>DEX sniping skeleton with orderflow sampling + backoff logic.</p>
+          <ul>
+            <li>Mock pool watcher</li>
+            <li>Circuit breakers</li>
+            <li>Dockerized</li>
+          </ul>
+          <a href="https://github.com/garvaneja" target="_blank" class="mini">Repo →</a>
+        </div>
+      </div>
+      <p class="disclaimer">*Metrics shown are from controlled backtests or sandbox runs. Repos include notebooks to reproduce.</p>
+    </section>
+
+    <section id="work" class="work">
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <article class="project">
+          <h3>AiFund‑Lite: RL Hedge‑Bot</h3>
+          <p>Clean PPO/LSTM baseline, modular risk manager, simple backtester, Kraken integration via CCXT (paper mode).</p>
+          <ul class="tags"><li>RL</li><li>Trading</li><li>CCXT</li><li>Backtesting</li></ul>
+          <a class="btn small" href="https://github.com/garvaneja" target="_blank">Open Repo</a>
+        </article>
+        <article class="project">
+          <h3>NeuroMemeSurge‑Lite</h3>
+          <p>Headline sentiment → event-driven signals. Telegram alerts, throttled execution, and PnL logging.</p>
+          <ul class="tags"><li>NLP</li><li>Sentiment</li><li>FastAPI</li></ul>
+          <a class="btn small" href="https://github.com/garvaneja" target="_blank">Open Repo</a>
+        </article>
+        <article class="project">
+          <h3>Puppeteer of Chaos (PoC)</h3>
+          <p>Latency first. Pool watcher + MEV-aware backoff. Designed for Raydium/MEXC/Bitget research.</p>
+          <ul class="tags"><li>DeFi</li><li>MEV</li><li>Docker</li></ul>
+          <a class="btn small" href="https://github.com/garvaneja" target="_blank">Open Repo</a>
+        </article>
+        <article class="project">
+          <h3>MFCB Research</h3>
+          <p>Decentralized volatility stabilizer concept. Tokenomics, PPO controller sketch, Grafana dashboards.</p>
+          <ul class="tags"><li>Research</li><li>DeFi</li><li>Tokenomics</li></ul>
+          <a class="btn small" href="https://github.com/garvaneja" target="_blank">Open Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="research">
+      <h2>Notes & Research</h2>
+      <div class="grid">
+        <article class="note">
+          <h4>VWAP Mean Reversion</h4>
+          <p>1m bars, rolling σ filter, position sizing by z-score.</p>
+        </article>
+        <article class="note">
+          <h4>Volatility Clustering</h4>
+          <p>GARCH sketch vs LSTM volatility head – tradeoffs in microstructure.</p>
+        </article>
+        <article class="note">
+          <h4>Sentiment × Liquidity</h4>
+          <p>Joint signal: text polarity + AMM slippage → better pump filters.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="stack">
+      <h2>Tech Stack</h2>
+      <ul class="stacklist">
+        <li>Python · PyTorch · TensorFlow</li>
+        <li>FastAPI · WebSockets · Docker</li>
+        <li>Pandas · NumPy · TA-Lib</li>
+        <li>Kafka/Redis (pub/sub) · CCXT</li>
+        <li>Prometheus · Grafana</li>
+      </ul>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>
+        I'm Garvit — a self-taught quant/engineer who builds lean, shipping‑first systems.
+        I like brutal simplicity, readable code, and experiments that expose truth. If you want
+        someone who prototypes in days (not quarters) and iterates with real data, let’s talk.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Hire Me</h2>
+      <p class="cta">Berlin founders & quant desks: I’m available for internship/working student/contract roles.</p>
+      <div class="contact-grid">
+        <a class="btn primary" href="mailto:garvitaneja04@gmail.com">Email</a>
+        <a class="btn" href="https://github.com/garvaneja" target="_blank">GitHub</a>
+        <a class="btn" href="https://t.me/" target="_blank">Telegram</a>
+        <a class="btn" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      </div>
+      <p class="fine">CV available on request. References & code walkthroughs on call.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Garvit Aneja · Built with discipline.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
